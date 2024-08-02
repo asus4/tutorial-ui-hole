@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 
 [ExecuteInEditMode()]
+[RequireComponent(typeof(RectTransform), typeof(CanvasRenderer))]
 public class UIHole : Graphic, ICanvasRaycastFilter
 {
     [SerializeField] private Vector2 _center;
